@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import "./WhyBest.css";
+import "./Whybest.css";
 
 const reasons = [
   {
@@ -34,7 +34,7 @@ const reasons = [
   },
 ];
 
-export default function WhyBest() {
+export default function Whybest() {
   const ref = useRef(null);
 
   useEffect(() => {
